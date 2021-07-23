@@ -17,14 +17,17 @@ class ViewController: UIViewController {
 
 
     @IBAction func dogButton(_ sender: Any) {
+        label.text = "ワンワン"
     }
     
     
     @IBAction func catButton(_ sender: Any) {
+        label.text = "ニャーニャー"
     }
     
     
     @IBAction func frogButton(_ sender: Any) {
+        label.text = "ゲロゲロ"
     }
     
     
